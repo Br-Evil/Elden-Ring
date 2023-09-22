@@ -1,0 +1,114 @@
+body {
+    font: 1em "Garamond Premier";
+    overflow-x: hidden;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #242424;
+    color: white;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-image: linear-gradient(black,rgba(24,24,24,0));
+    /* background-color: black; */
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: min-content auto;
+}
+
+h1 {
+    font: 2em "Garamond Premier";
+}
+
+.main-content {
+    padding-left: 25px;
+    padding-top: 78px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+    width: 27px;
+    height: 3px;
+    background-color: #d1aa66;
+    margin: 6px 0;
+    justify-self: right;
+}
+
+.sidebar {
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.sidebar-content {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    background-color: #121212;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 56px;
+}
+
+a.sidebar-selected {
+    color:white !important
+}
+.sidebar-content a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar-content a:hover {
+    color: white;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar-content {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 20px
+}
+
+.counter {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    align-items: center;
+    height: 20px;
+    position: fixed;
+    text-align: right;
+    right:30px;
+}
+/* .counter-content {
+} */
+
+.reset {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
