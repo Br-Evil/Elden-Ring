@@ -1,0 +1,11 @@
+{
+    "short_name": "Elden Ring",
+    "name": "Elden Ring",
+    "icons": [{
+        "src": "images/icon.png",
+        "type": "image/png"
+    }],
+    "display": "standalone",
+    "scope": "/",
+    "theme_color" : "#000"
+  }
