@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" type="image/png" href="images/icon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Trovesaurus">
+    <link rel="apple-touch-icon" href="images/icon.ico">
+    <title>Elden Ring</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+    
+</head>
+<body class="noselect">
+    <header class="header">
+        <div class="sidebar" id="sidebar">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <a href="index.html">
+            <div class="title">
+                <img class="header" src="images/title.png">
+            </div>
+        </a>
+    </header>
+    <div class="sidebar-content">
+        <a class="sidebar-selected" href="bossweapon.html">Randomise Boss</a>
+    </div>
+    <div class="main-content bossweapon">
+        
+        <table>
+            <tr>
+                <th>
+                    Weapon
+                </th>
+                <th>
+                    Boss
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <span class="randomWeapon"></span>
+                </td>
+                <td>
+                    <span class="randomBoss"></span>
+                </td>
+            </tr>
+        </table>
+        <button class="randomise button">Click for random Boss and Weapon</button>
+        <script src="randombossweapon.js"></script>
+
+    </div>
+    
+    <script src="sidebar.js"></script>
+</body>
+</html>
+
+
