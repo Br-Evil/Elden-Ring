@@ -652,7 +652,13 @@ function createRandomPair(a, b) {
     } catch (error) {
         console.log(error)
     }
-    let combinedArmament = [...weapons, ...bows, ...shields]
+    let combinedArmament = []
+    if (document.querySelector(`#weapons`).checked) combinedArmament = combinedArmament.concat(weapons)
+    if (document.querySelector(`#bows`).checked) combinedArmament = combinedArmament.concat(bows)
+    if (document.querySelector(`#shields`).checked) combinedArmament = combinedArmament.concat(shields)
+
+
+
     let selectedArmament = combinedArmament[Math.floor(Math.random() * combinedArmament.length)]
     let weapon = document.createElement(`a`)
     weapon.target = "_blank"
@@ -670,7 +676,27 @@ function createRandomPair(a, b) {
         console.log(error)
     }
     
-    let combinedBoss = [...limgrave, ...liurnia, ...caelid, ...siofra, ...ainsel, ...nokron, ...deeproot, ...rot, ...altus, ...leyndell, ...gelmir, ...forbidden, ...mountaintops, ...consecrated, ...haligtree, ...mohgwyn, ...farum, ...ashen]
+    let combinedBoss = []
+    if (document.querySelector(`#limgrave`).checked) combinedBoss = combinedBoss.concat(limgrave)
+    if (document.querySelector(`#liurnia`).checked) combinedBoss = combinedBoss.concat(liurnia)
+    if (document.querySelector(`#caelid`).checked) combinedBoss = combinedBoss.concat(caelid)
+    if (document.querySelector(`#siofra`).checked) combinedBoss = combinedBoss.concat(siofra)
+    if (document.querySelector(`#ainsel`).checked) combinedBoss = combinedBoss.concat(ainsel)
+    if (document.querySelector(`#nokron`).checked) combinedBoss = combinedBoss.concat(nokron)
+    if (document.querySelector(`#deeproot`).checked) combinedBoss = combinedBoss.concat(deeproot)
+    if (document.querySelector(`#rot`).checked) combinedBoss = combinedBoss.concat(rot)
+    if (document.querySelector(`#altus`).checked) combinedBoss = combinedBoss.concat(altus)
+    if (document.querySelector(`#leyndell`).checked) combinedBoss = combinedBoss.concat(leyndell)
+    if (document.querySelector(`#gelmir`).checked) combinedBoss = combinedBoss.concat(gelmir)
+    if (document.querySelector(`#forbidden`).checked) combinedBoss = combinedBoss.concat(forbidden)
+    if (document.querySelector(`#mountaintops`).checked) combinedBoss = combinedBoss.concat(mountaintops)
+    if (document.querySelector(`#consecrated`).checked) combinedBoss = combinedBoss.concat(consecrated)
+    if (document.querySelector(`#haligtree`).checked) combinedBoss = combinedBoss.concat(haligtree)
+    if (document.querySelector(`#mohgwyn`).checked) combinedBoss = combinedBoss.concat(mohgwyn)
+    if (document.querySelector(`#farum`).checked) combinedBoss = combinedBoss.concat(farum)
+    if (document.querySelector(`#ashen`).checked) combinedBoss = combinedBoss.concat(ashen)
+    // if (document.querySelector()){}
+    // let combinedBoss = [...limgrave, ...liurnia, ...caelid, ...siofra, ...ainsel, ...nokron, ...deeproot, ...rot, ...altus, ...leyndell, ...gelmir, ...forbidden, ...mountaintops, ...consecrated, ...haligtree, ...mohgwyn, ...farum, ...ashen]
     let selectedBoss = String(combinedBoss[Math.floor(Math.random() * combinedBoss.length)])
     let boss = document.createElement(`a`)
     boss.target = "_blank"
@@ -689,14 +715,14 @@ function createRandomPair(a, b) {
 
 function moreOptions() {
     more = document.querySelector(`.more-options`)
+    inputClass = document.getElementsByClassName('fieldset-checkbox')
     if (moreButton.innerText === "+") {
         moreButton.innerText = "-"
-        more.style = "height: 100%"
-
-
+        more.style = "height: 700px"
     }
     else {
         moreButton.innerText = "+"
         more.style = "height: 0px"
     }
 }
+

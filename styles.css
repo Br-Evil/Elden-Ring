@@ -146,7 +146,7 @@ a.hidden {
     columns: 2;
     height: 0px;
     overflow: hidden;
-    transition: 0.5s;
+    /* transition: height 0.5s; */
     width: 70%;
     margin: 0 auto 0 auto;
 }
@@ -157,4 +157,5 @@ fieldset {
 }
 fieldset input[type="checkbox"] {
     margin-right: 10px;
+    /* transition: opacity 0.3s ease-in-out; */
 }
