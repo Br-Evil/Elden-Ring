@@ -24,7 +24,7 @@ h1 {
 }
 
 .main-content {
-    padding-left: 25px;
+    /* padding-left: 25px; */
     padding-top: 78px;
 }
 
@@ -119,6 +119,7 @@ table {
     margin: 0 auto 0 auto;
     width: 70%;
     padding-bottom: 10px;
+    height: 169px;
 }
 th {
     font-size:35px;
@@ -127,7 +128,8 @@ th {
     overflow: hidden;
 }
 td {
-    font-size: 20px
+    font-size: 20px;
+    height: 100px;
 }
 .bossweapon {
     text-align: center;
@@ -138,4 +140,21 @@ td {
 a.hidden {
     text-decoration: none;
     color: white;
+}
+
+.more-options {
+    columns: 2;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+fieldset {
+    overflow: hidden;
+    text-align: left;
+}
+fieldset input[type="checkbox"] {
+    margin-right: 10px;
 }

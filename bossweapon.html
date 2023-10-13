@@ -20,13 +20,12 @@
             <div class="bar"></div>
             <div class="bar"></div>
         </div>
-        <a href="index.html">
-            <div class="title">
-                <img class="header" src="images/title.png">
-            </div>
-        </a>
+        <div class="title">
+            <img class="header" src="images/title.png">
+        </div>
     </header>
     <div class="sidebar-content">
+        <a href="index.html">Home</a>
         <a class="sidebar-selected" href="bossweapon.html">Randomise Boss</a>
     </div>
     <div class="main-content bossweapon">
@@ -50,10 +49,87 @@
             </tr>
         </table>
         <button class="randomise button">Click for random Boss and Weapon</button>
-        <script src="randombossweapon.js"></script>
+        <button name="more" style="border-radius: 40px;height: 21px;width: 21px;padding: 0;text-align: center;">+</button>
+        <div class="more-options">
+            <fieldset>
+                <legend>
+                    Weapons:
+                </legend>
+                <p>
+                    <input type="checkbox" name="weapons" id="weapons" checked>General Weapons
+                </p>
+                <p>
+                    <input type="checkbox" name="bows" id="bows" checked>Bows
+                </p>
+                <p>
+                    <input type="checkbox" name="shields" id="shields" checked>Shields
+                </p>
 
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Locations:
+                </legend>
+                <p>
+                    <input type="checkbox" checked name="limgrave" id="limgrave">Limgrave
+                </p>
+                <p>
+                    <input type="checkbox" checked name="liurnia" id="liurnia">Liurnia of the Lakes
+                </p>
+                <p>
+                    <input type="checkbox" checked name="caelid" id="caelid">Caelid
+                </p>
+                <p>
+                    <input type="checkbox" checked name="siofra" id="siofra">Siofra River
+                </p>
+                <p>
+                    <input type="checkbox" checked name="ainsel" id="ainsel">Ainsel River
+                </p>
+                <p>
+                    <input type="checkbox" checked name="nokron" id="nokron">Nokron, Eternal City
+                </p>
+                <p>
+                    <input type="checkbox" checked name="deeproot" id="deeproot">Deeproot Depths
+                </p>
+                <p>
+                    <input type="checkbox" checked name="rot" id="rot">Lake of Rot
+                </p>
+                <p>
+                    <input type="checkbox" checked name="altus" id="altus">Altus Plateau
+                </p>
+                <p>
+                    <input type="checkbox" checked name="leyndell" id="leyndell">Leyndell, Royal Capital
+                </p>
+                <p>
+                    <input type="checkbox" checked name="gelmir" id="gelmir">Mt Gelmir
+                </p>
+                <p>
+                    <input type="checkbox" checked name="forbidden" id="forbidden">Forbidden Lands
+                </p>
+                <p>
+                    <input type="checkbox" checked name="mountaintops" id="mountaintops">Mountaintops of the Giants
+                </p>
+                <p>
+                    <input type="checkbox" checked name="consecrated" id="consecrated">Consecrated Snowfields
+                </p>
+                <p>
+                    <input type="checkbox" checked name="haligtree" id="haligtree">Miquella's Haligtree
+                </p>
+                <p>
+                    <input type="checkbox" checked name="mohgwyn" id="mohgwyn">Mohgwyn Palace
+                </p>
+                <p>
+                    <input type="checkbox" checked name="farum" id="farum">Crumbling Farum Azula
+                </p>
+                <p>
+                    <input type="checkbox" checked name="ashen" id="ashen">Leyndell, Ashen Capital
+                </p>
+            </fieldset>
+        </div>
+        
     </div>
     
+    <script src="randombossweapon.js"></script>
     <script src="sidebar.js"></script>
 </body>
 </html>

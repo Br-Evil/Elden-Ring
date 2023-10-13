@@ -1,223 +1,226 @@
 // ----------------------------------- Bosses -----------------------------------
-limgrave = [
-    "Ancient Hero of Zamor (Weeping Peninsula)",
-    "Beast of Farum Azula (Limgrave)",
-    "Bell Bearing Hunter (Limgrave)",
-    "Black Knife Assassin (Limgrave)",
-    "Bloodhound Knight Darriwil (Limgrave)",
-    "Cemetery Shade (Weeping Peninsula)",
-    "Crucible Knight (Limgrave)",
-    "Deathbird (Limgrave)",
-    "Deathbird (Weeping Peninsula)",
-    "Demi-Human Chief (Limgrave)",
-    "Erdtree Avatar (Weeping Peninsula)",
-    "Erdtree Burial Watchdog (Limgrave)",
-    "Erdtree Burial Watchdog (Weeping Peninsula)",
-    "Flying Dragon Agheel (Limgrave)",
-    "Godrick the Grafted (Limgrave)",
-    "Grave Warden Duelist (Limgrave)",
-    "Guardian Golem (Limgrave)",
-    "Leonine Misbegotten (Weeping Peninsula)",
-    "Mad Pumpkin Head (Limgrave)",
-    "Margit, the Fell Omen (Limgrave)",
-    "Miranda the Blighted Bloom (Weeping Peninsula)",
-    "Night's Cavalry (Limgrave)",
-    "Night's Cavalry (Weeping Peninsula)",
-    "Patches (Limgrave)",
-    "Runebear (Weeping Peninsula)",
-    "Scaly Misbegotten (Weeping Peninsula)",
-    "Soldier of Godrick (Limgrave)",
-    "Stonedigger Troll (Limgrave)",
-    "Tibia Mariner (Limgrave)",
-    "Tree Sentinel (Limgrave)",
-    "Ulcerated Tree Spirit (Limgrave)"
-]
-
-liurnia = [
-    "Adan, Thief of Fire (Liurnia of the Lakes)",
-    "Onyx Lord (Liurnia of the Lakes)",
-    "Alecto, Black Knife Ringleader (Liurnia of the Lakes)",
-    "Bell Bearing Hunter (Liurnia of the Lakes)",
-    "Black Knife Assassin (Liurnia of the Lakes)",
-    "Bloodhound Knight (Liurnia of the Lakes)",
-    "Bols, Carian Knight (Liurnia of the Lakes)",
-    "Cemetery Shade (Liurnia of the Lakes)",
-    "Cleanrot Knight (Liurnia of the Lakes)",
-    "Crystalian Spear & Crystalian Staff (Liurnia of the Lakes)",
-    "Crystalian Ringblade (Liurnia of the Lakes)",
-    "Deathbird (Liurnia of the Lakes)",
-    "Death Rite Bird (Liurnia of the Lakes)",
-    "Erdtree Avatar (Northeast) (Liurnia of the Lakes)",
-    "Erdtree Avatar (Southwest) (Liurnia of the Lakes)",
-    "Erdtree Burial Watchdog (Liurnia of the Lakes)",
-    "Glintstone Dragon Adula (Liurnia of the Lakes)",
-    "Glintstone Dragon Smarag (Liurnia of the Lakes)",
-    "Grafted Scion (Four Belfries) (Liurnia of the Lakes)",
-    "Magma Wyrm Makar (Liurnia of the Lakes)",
-    "Night's Cavalry (North) (Liurnia of the Lakes)",
-    "Night's Cavalry (South) (Liurnia of the Lakes)",
-    "Omenkiller (Liurnia of the Lakes)",
-    "Red Wolf of Radagon (Liurnia of the Lakes)",
-    "Rennala, Queen of the Full Moon (Liurnia of the Lakes)",
-    "Royal Knight Loretta (Liurnia of the Lakes)",
-    "Royal Revenant (Liurnia of the Lakes)",
-    "Spirit-Caller Snail (Liurnia of the Lakes)",
-    "Tibia Mariner (Liurnia of the Lakes)"
-]
-
-caelid = [
-    "Beast of Farum Azula (Dragonbarrow)",
-    "Bell Bearing Hunter (Dragonbarrow)",
-    "Black Blade Kindred (Dragonbarrow)",
-    "Cemetery Shade (Caelid)",
-    "Cleanrot Knight (Caelid)",
-    "Commander O'Neil (Caelid)",
-    "Crucible Knight / Misbegotten Warrior (Caelid)",
-    "Death Rite Bird (Caelid)",
-    "Decaying Ekzykes (Caelid)",
-    "Erdtree Avatar (Caelid)",
-    "Erdtree Burial Watchdog (Caelid)",
-    "Fallingstar Beast (Caelid)",
-    "Flying Dragon Greyll (Dragonbarrow)",
-    "Frenzied Duelist (Caelid)",
-    "Godskin Apostle (Dragonbarrow)",
-    "Mad Pumpkin Heads (Caelid)",
-    "Magma Wyrm (Caelid)",
-    "Night's Cavalry (Caelid)",
-    "Night's Cavalry (Dragonbarrow)",
-    "Nox Swordstress & Nox Priest (Caelid)",
-    "Putrid Avatar (Dragonbarrow)",
-    "Putrid Crystallian Trio (Caelid)",
-    "Putrid Tree Spirit (Dragonbarrow)",
-    "Starscourge Radahn (Caelid)",
-    "Battlemage Hugues (Caelid)"
-]
-
-siofra = [
-    "Ancestor Spirit (Siofra River)",
-    "Dragonkin Soldier (Siofra River)"
-]
-
-ainsel = [
-    "Dragonkin Soldier of Nokstella (Ainsel River)"
-]
-
-nokron = [
-    "Mimic Tear (Nokron, Eternal City)",
-    "Regal Ancestor Spirit (Nokron, Eternal City)",
-    "Valiant Gargoyles (Nokron, Eternal City)"
-]
-
-deeproot = [
-    "Crucible Knight Siluria (Deeproot Depths)",
-    "Fia's Champions (Deeproot Depths)",
-    "Lichdragon Fortissax (Deeproot Depths)"
-]
-
-rot = [
-    "Astel, Naturalborn of the Void (Lake of Rot)",
-    "Dragonkin Soldier (Lake of Rot)"
-]
-
-altus = [
-    "Ancient Dragon Lansseax (Altus Plateau)",
-    "Ancient Hero of Zamor (Altus Plateau)",
-    "Black Knife Assassin (Sage's Cave) (Altus Plateau)",
-    "Black Knife Assassin (Sainted Hero's Grave) (Altus Plateau)",
-    "Crystalian Spear & Crystalian Ringblade (Altus Plateau)",
-    "Demi-Human Queen Gilika (Altus Plateau)",
-    "Elemer of the Briar (Altus Plateau)",
-    "Fallingstar Beast (Altus Plateau)",
-    "Godefroy The Grafted (Altus Plateau)",
-    "Godskin Apostle (Altus Plateau)",
-    "Necromancer Garris (Altus Plateau)",
-    "Night's Cavalry (Altus Plateau)",
-    "Omenkiller / Miranda (Altus Plateau)",
-    "Perfumer Tricia / Misbegotten Warrior (Altus Plateau)",
-    "Sanguine Noble (Altus Plateau)",
-    "Stonedigger Troll (Altus Plateau)",
-    "Tree Sentinel Duo (Altus Plateau)",
-    "Wormface (Altus Plateau)"
-]
-
-leyndell = [
-    "Bell Bearing Hunter (Leyndell)",
-    "Crucible Knight Ordovis / Crucible Knight (Leyndell)",
-    "Deathbird (Leyndell)",
-    "Draconic Tree Sentinel (Leyndell)",
-    "Esgar, Priest of Blood (Leyndell)",
-    "Fell Twins (Leyndell)",
-    "Godfrey, First Elden Lord (Leyndell)",
-    "Grave Warden Duelist (Leyndell)",
-    "Morgott, the Omen King (Leyndell)",
-    "Mohg, The Omen (Leyndell)",
-    "Onyx Lord (Leyndell)"
-]
-
-gelmir = [
-    "Abductor Virgins (Mt Gelmir)",
-    "Demi-Human Queen Margot (Mt Gelmir)",
-    "Demi-Human Queen Maggie (Mt Gelmir)",
-    "Erdtree Burial Watchdog (Mt Gelmir)",
-    "Full-Grown Fallingstar Beast (Mt Gelmir)",
-    "God-Devouring Serpent / Rykard (Mt Gelmir)",
-    "Godskin Noble (Mt Gelmir)",
-    "Kindred of Rot (Mt Gelmir)",
-    "Magma Wyrm (Mt Gelmir)",
-    "Red Wolf of the Champion (Mt Gelmir)",
-    "Tibia Mariner (Mt Gelmir)",
-    "Ulcerated Tree Spirit (Mt Gelmir)"
-]
-
-forbidden = [
-    "Black Blade Kindred (Forbidden Lands)",
-    "Mimic Tear (Path to Haligtree)",
-    "Night's Cavalry (Forbidden Lands)"
-]
-
-mountaintops = [
-    "Ancient Hero of Zamor (Mountaintops of the Giants)",
-    "Borealis the Freezing Fog (Mountaintops of the Giants)",
-    "Commander Niall (Mountaintops of the Giants)",
-    "Death Rite Bird (Mountaintops of the Giants)",
-    "Erdtree Avatar (Mountaintops of the Giants)",
-    "Fire Giant (Mountaintops of the Giants)",
-    "Godskins (Summoner Snail) (Mountaintops of the Giants)",
-    "Ulcerated Tree Spirit (Mountaintops of the Giants)",
-    "Vyke, Knight of the Roundtable (Mountaintops of the Giants)"
-]
-
-consecrated = [
-    "Astel, Stars of Darkness (Consecrated Snowfields)",
-    "Death Rite Bird (Consecrated Snowfields)",
-    "Great Wrym Theodorix (Consecrated Snowfields)",
-    "Misbegotten Crusader (Consecrated Snowfields)",
-    "Night's Cavalry (duo) (Consecrated Snowfields)",
-    "Putrid Avatar (Consecrated Snowfields)",
-    "Putrid Grave Warden Duelist (Consecrated Snowfields)"
-]
-
-haligtree = [
-    "Loretta, Knight of the Haligtree",
-    "Malenia, Blade of Miquella"
-]
-
-mohgwyn = [
-    "Mohg, Lord of Blood"
-]
-
-farum = [
-    "Godskin Duo (Crumbling Farum Azula)",
-    "Beast Clergyman / Maliketh Black Blade (Crumbling Farum Azula)",
-    "Dragonlord Placidusax (Crumbling Farum Azula)"
-]
-
-ashen = [
-    "Godfrey, First Elden Lord / Hoarah Loux (Ashen Capital)",
-    "Radagon of the Golden Order / Elden Beast (Ashen Capital)",
-    "Sir Gideon Ofnir, the All-Knowing  (Ashen Capital)"
-]
-
+{
+    
+    
+    limgrave = [
+        "Ancient Hero of Zamor (Weeping Peninsula)",
+        "Beast of Farum Azula (Limgrave)",
+        "Bell Bearing Hunter (Limgrave)",
+        "Black Knife Assassin (Limgrave)",
+        "Bloodhound Knight Darriwil (Limgrave)",
+        "Cemetery Shade (Weeping Peninsula)",
+        "Crucible Knight (Limgrave)",
+        "Deathbird (Limgrave)",
+        "Deathbird (Weeping Peninsula)",
+        "Demi-Human Chief (Limgrave)",
+        "Erdtree Avatar (Weeping Peninsula)",
+        "Erdtree Burial Watchdog (Limgrave)",
+        "Erdtree Burial Watchdog (Weeping Peninsula)",
+        "Flying Dragon Agheel (Limgrave)",
+        "Godrick the Grafted (Limgrave)",
+        "Grave Warden Duelist (Limgrave)",
+        "Guardian Golem (Limgrave)",
+        "Leonine Misbegotten (Weeping Peninsula)",
+        "Mad Pumpkin Head (Limgrave)",
+        "Margit, the Fell Omen (Limgrave)",
+        "Miranda the Blighted Bloom (Weeping Peninsula)",
+        "Night's Cavalry (Limgrave)",
+        "Night's Cavalry (Weeping Peninsula)",
+        "Patches (Limgrave)",
+        "Runebear (Weeping Peninsula)",
+        "Scaly Misbegotten (Weeping Peninsula)",
+        "Soldier of Godrick (Limgrave)",
+        "Stonedigger Troll (Limgrave)",
+        "Tibia Mariner (Limgrave)",
+        "Tree Sentinel (Limgrave)",
+        "Ulcerated Tree Spirit (Limgrave)"
+    ]
+    
+    liurnia = [
+        "Adan, Thief of Fire (Liurnia of the Lakes)",
+        "Onyx Lord (Liurnia of the Lakes)",
+        "Alecto, Black Knife Ringleader (Liurnia of the Lakes)",
+        "Bell Bearing Hunter (Liurnia of the Lakes)",
+        "Black Knife Assassin (Liurnia of the Lakes)",
+        "Bloodhound Knight (Liurnia of the Lakes)",
+        "Bols, Carian Knight (Liurnia of the Lakes)",
+        "Cemetery Shade (Liurnia of the Lakes)",
+        "Cleanrot Knight (Liurnia of the Lakes)",
+        "Crystalian Spear & Crystalian Staff (Liurnia of the Lakes)",
+        "Crystalian Ringblade (Liurnia of the Lakes)",
+        "Deathbird (Liurnia of the Lakes)",
+        "Death Rite Bird (Liurnia of the Lakes)",
+        "Erdtree Avatar (Northeast) (Liurnia of the Lakes)",
+        "Erdtree Avatar (Southwest) (Liurnia of the Lakes)",
+        "Erdtree Burial Watchdog (Liurnia of the Lakes)",
+        "Glintstone Dragon Adula (Liurnia of the Lakes)",
+        "Glintstone Dragon Smarag (Liurnia of the Lakes)",
+        "Grafted Scion (Four Belfries) (Liurnia of the Lakes)",
+        "Magma Wyrm Makar (Liurnia of the Lakes)",
+        "Night's Cavalry (North) (Liurnia of the Lakes)",
+        "Night's Cavalry (South) (Liurnia of the Lakes)",
+        "Omenkiller (Liurnia of the Lakes)",
+        "Red Wolf of Radagon (Liurnia of the Lakes)",
+        "Rennala, Queen of the Full Moon (Liurnia of the Lakes)",
+        "Royal Knight Loretta (Liurnia of the Lakes)",
+        "Royal Revenant (Liurnia of the Lakes)",
+        "Spirit-Caller Snail (Liurnia of the Lakes)",
+        "Tibia Mariner (Liurnia of the Lakes)"
+    ]
+    
+    caelid = [
+        "Beast of Farum Azula (Dragonbarrow)",
+        "Bell Bearing Hunter (Dragonbarrow)",
+        "Black Blade Kindred (Dragonbarrow)",
+        "Cemetery Shade (Caelid)",
+        "Cleanrot Knight (Caelid)",
+        "Commander O'Neil (Caelid)",
+        "Crucible Knight / Misbegotten Warrior (Caelid)",
+        "Death Rite Bird (Caelid)",
+        "Decaying Ekzykes (Caelid)",
+        "Erdtree Avatar (Caelid)",
+        "Erdtree Burial Watchdog (Caelid)",
+        "Fallingstar Beast (Caelid)",
+        "Flying Dragon Greyll (Dragonbarrow)",
+        "Frenzied Duelist (Caelid)",
+        "Godskin Apostle (Dragonbarrow)",
+        "Mad Pumpkin Heads (Caelid)",
+        "Magma Wyrm (Caelid)",
+        "Night's Cavalry (Caelid)",
+        "Night's Cavalry (Dragonbarrow)",
+        "Nox Swordstress & Nox Priest (Caelid)",
+        "Putrid Avatar (Dragonbarrow)",
+        "Putrid Crystallian Trio (Caelid)",
+        "Putrid Tree Spirit (Dragonbarrow)",
+        "Starscourge Radahn (Caelid)",
+        "Battlemage Hugues (Caelid)"
+    ]
+    
+    siofra = [
+        "Ancestor Spirit (Siofra River)",
+        "Dragonkin Soldier (Siofra River)"
+    ]
+    
+    ainsel = [
+        "Dragonkin Soldier of Nokstella (Ainsel River)"
+    ]
+    
+    nokron = [
+        "Mimic Tear (Nokron, Eternal City)",
+        "Regal Ancestor Spirit (Nokron, Eternal City)",
+        "Valiant Gargoyles (Nokron, Eternal City)"
+    ]
+    
+    deeproot = [
+        "Crucible Knight Siluria (Deeproot Depths)",
+        "Fia's Champions (Deeproot Depths)",
+        "Lichdragon Fortissax (Deeproot Depths)"
+    ]
+    
+    rot = [
+        "Astel, Naturalborn of the Void (Lake of Rot)",
+        "Dragonkin Soldier (Lake of Rot)"
+    ]
+    
+    altus = [
+        "Ancient Dragon Lansseax (Altus Plateau)",
+        "Ancient Hero of Zamor (Altus Plateau)",
+        "Black Knife Assassin (Sage's Cave) (Altus Plateau)",
+        "Black Knife Assassin (Sainted Hero's Grave) (Altus Plateau)",
+        "Crystalian Spear & Crystalian Ringblade (Altus Plateau)",
+        "Demi-Human Queen Gilika (Altus Plateau)",
+        "Elemer of the Briar (Altus Plateau)",
+        "Fallingstar Beast (Altus Plateau)",
+        "Godefroy The Grafted (Altus Plateau)",
+        "Godskin Apostle (Altus Plateau)",
+        "Necromancer Garris (Altus Plateau)",
+        "Night's Cavalry (Altus Plateau)",
+        "Omenkiller / Miranda (Altus Plateau)",
+        "Perfumer Tricia / Misbegotten Warrior (Altus Plateau)",
+        "Sanguine Noble (Altus Plateau)",
+        "Stonedigger Troll (Altus Plateau)",
+        "Tree Sentinel Duo (Altus Plateau)",
+        "Wormface (Altus Plateau)"
+    ]
+    
+    leyndell = [
+        "Bell Bearing Hunter (Leyndell)",
+        "Crucible Knight Ordovis / Crucible Knight (Leyndell)",
+        "Deathbird (Leyndell)",
+        "Draconic Tree Sentinel (Leyndell)",
+        "Esgar, Priest of Blood (Leyndell)",
+        "Fell Twins (Leyndell)",
+        "Godfrey, First Elden Lord (Leyndell)",
+        "Grave Warden Duelist (Leyndell)",
+        "Morgott, the Omen King (Leyndell)",
+        "Mohg, The Omen (Leyndell)",
+        "Onyx Lord (Leyndell)"
+    ]
+    
+    gelmir = [
+        "Abductor Virgins (Mt Gelmir)",
+        "Demi-Human Queen Margot (Mt Gelmir)",
+        "Demi-Human Queen Maggie (Mt Gelmir)",
+        "Erdtree Burial Watchdog (Mt Gelmir)",
+        "Full-Grown Fallingstar Beast (Mt Gelmir)",
+        "God-Devouring Serpent / Rykard (Mt Gelmir)",
+        "Godskin Noble (Mt Gelmir)",
+        "Kindred of Rot (Mt Gelmir)",
+        "Magma Wyrm (Mt Gelmir)",
+        "Red Wolf of the Champion (Mt Gelmir)",
+        "Tibia Mariner (Mt Gelmir)",
+        "Ulcerated Tree Spirit (Mt Gelmir)"
+    ]
+    
+    forbidden = [
+        "Black Blade Kindred (Forbidden Lands)",
+        "Night's Cavalry (Forbidden Lands)"
+    ]
+    
+    mountaintops = [
+        "Ancient Hero of Zamor (Mountaintops of the Giants)",
+        "Borealis the Freezing Fog (Mountaintops of the Giants)",
+        "Commander Niall (Mountaintops of the Giants)",
+        "Death Rite Bird (Mountaintops of the Giants)",
+        "Erdtree Avatar (Mountaintops of the Giants)",
+        "Fire Giant (Mountaintops of the Giants)",
+        "Godskins (Summoner Snail) (Mountaintops of the Giants)",
+        "Ulcerated Tree Spirit (Mountaintops of the Giants)",
+        "Vyke, Knight of the Roundtable (Mountaintops of the Giants)"
+    ]
+    
+    consecrated = [
+        "Astel, Stars of Darkness (Consecrated Snowfields)",
+        "Death Rite Bird (Consecrated Snowfields)",
+        "Great Wrym Theodorix (Consecrated Snowfields)",
+        "Mimic Tear (Path to Haligtree)",
+        "Misbegotten Crusader (Consecrated Snowfields)",
+        "Night's Cavalry (duo) (Consecrated Snowfields)",
+        "Putrid Avatar (Consecrated Snowfields)",
+        "Putrid Grave Warden Duelist (Consecrated Snowfields)"
+    ]
+    
+    haligtree = [
+        "Loretta, Knight of the Haligtree",
+        "Malenia, Blade of Miquella"
+    ]
+    
+    mohgwyn = [
+        "Mohg, Lord of Blood"
+    ]
+    
+    farum = [
+        "Godskin Duo (Crumbling Farum Azula)",
+        "Beast Clergyman / Maliketh Black Blade (Crumbling Farum Azula)",
+        "Dragonlord Placidusax (Crumbling Farum Azula)"
+    ]
+    
+    ashen = [
+        "Godfrey, First Elden Lord / Hoarah Loux (Ashen Capital)",
+        "Radagon of the Golden Order / Elden Beast (Ashen Capital)",
+        "Sir Gideon Ofnir, the All-Knowing  (Ashen Capital)"
+    ]
+}
 
 // ----------------------------------- Weapons -----------------------------------
 weapons = [
@@ -596,6 +599,9 @@ duo = {
     "Putrid Crystallian Trio (Caelid)": "https://eldenring.wiki.fextralife.com/Putrid+Crystalians",
     "Tree Sentinel Duo (Altus Plateau)": "https://eldenring.wiki.fextralife.com/Tree+Sentinel"
 }
+
+// ---------------------------------- MAIN ----------------------------------
+
 document.addEventListener("DOMContentLoaded", () => {
     duo = {
         "Crystalian Spear & Crystalian Staff (Liurnia of the Lakes)": "https://eldenring.wiki.fextralife.com/Crystalians",
@@ -620,8 +626,8 @@ document.addEventListener("DOMContentLoaded", () => {
     weapon.className = "hidden"
     weapon.innerText = selectedArmament
     document.querySelector(`.randomWeapon`).appendChild(weapon)
-
-
+    
+    
     let combinedBoss = [...limgrave, ...liurnia, ...caelid, ...siofra, ...ainsel, ...nokron, ...deeproot, ...rot, ...altus, ...leyndell, ...gelmir, ...forbidden, ...mountaintops, ...consecrated, ...haligtree, ...mohgwyn, ...farum, ...ashen]
     let selectedBoss = combinedBoss[Math.floor(Math.random() * combinedBoss.length)]
     let boss = document.createElement(`a`)
@@ -635,8 +641,9 @@ document.addEventListener("DOMContentLoaded", () => {
     boss.innerText = selectedBoss
     document.querySelector(`.randomBoss`).appendChild(boss)
 })
+moreButton = document.querySelector(`[name="more"]`)
 document.querySelector(`.randomise`).addEventListener("click", createRandomPair)
-
+moreButton.addEventListener("click", moreOptions)
 
 
 function createRandomPair(a, b) {
@@ -653,21 +660,21 @@ function createRandomPair(a, b) {
     weapon.className = "hidden"
     weapon.innerText = selectedArmament
     document.querySelector(`.randomWeapon`).appendChild(weapon)
-
-
-
-
+    
+    
+    
+    
     try {
         document.querySelector(`.randomBoss > a`).remove()
     } catch (error) {
         console.log(error)
     }
-
+    
     let combinedBoss = [...limgrave, ...liurnia, ...caelid, ...siofra, ...ainsel, ...nokron, ...deeproot, ...rot, ...altus, ...leyndell, ...gelmir, ...forbidden, ...mountaintops, ...consecrated, ...haligtree, ...mohgwyn, ...farum, ...ashen]
     let selectedBoss = String(combinedBoss[Math.floor(Math.random() * combinedBoss.length)])
     let boss = document.createElement(`a`)
     boss.target = "_blank"
-
+    
     if (selectedBoss.includes('/') || selectedBoss.includes('&') || selectedBoss.includes('trio') || selectedBoss === "Tree Sentinel Duo (Altus Plateau)") {
         boss.href = duo[selectedBoss]
     } else {
@@ -676,6 +683,20 @@ function createRandomPair(a, b) {
     boss.className = "hidden"
     boss.innerText = selectedBoss
     document.querySelector(`.randomBoss`).appendChild(boss)
-
+    
     // document.querySelector(`.randomBoss`).innerText = selectedBoss
+}
+
+function moreOptions() {
+    more = document.querySelector(`.more-options`)
+    if (moreButton.innerText === "+") {
+        moreButton.innerText = "-"
+        more.style = "height: 100%"
+
+
+    }
+    else {
+        moreButton.innerText = "+"
+        more.style = "height: 0px"
+    }
 }
