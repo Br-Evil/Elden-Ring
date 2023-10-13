@@ -718,7 +718,7 @@ function moreOptions() {
     inputClass = document.getElementsByClassName('fieldset-checkbox')
     if (moreButton.innerText === "+") {
         moreButton.innerText = "-"
-        more.style = "height: 700px"
+        more.style = "height: auto"
     }
     else {
         moreButton.innerText = "+"
